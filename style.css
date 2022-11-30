@@ -67,3 +67,44 @@ h6 {
 #__next {
   isolation: isolate;
 }
+/* 
+    import the custom font
+*/
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+body {
+  background-color: hsl(212, 45%, 89%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  font-family: "Outfit", sans-serif;
+}
+/* main */
+main {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+  border-radius: 1rem;
+  max-width: 315px;
+}
+main img {
+  border-radius: 0.8rem;
+}
+main .title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: hsl(218, 44%, 22%);
+  font-weight: 700;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+main .text {
+  text-align: center;
+  color: hsl(220, 15%, 55%);
+  line-height: 1.4;
+  margin-bottom: 1rem;
+}
